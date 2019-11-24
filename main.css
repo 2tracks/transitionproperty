@@ -1,0 +1,24 @@
+
+.box{
+    width: 50px;
+    height: 50px;
+    background-color: #bada55;
+    transition-property: background-color;
+    transition-delay: 1s;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+}
+.box:hover{
+    background-color: #e84610;
+   }
+a{
+    font-size: 16px;
+    text-decoration: none;
+    color: rgb(29, 197, 99);
+    transition-property: color;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+}
+a:hover{
+    color: #000;
+} 
